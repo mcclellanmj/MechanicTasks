@@ -1,0 +1,11 @@
+# @title Scala Compiler Settings
+# @description Compiler Settings for Scala
+# @task_type RECONCILE
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Fri Apr 12 22:57:35 CDT 2013
+file_export_version=3.0
+/instance/org.scala-ide.sdt.core/explaintypes=true
+/instance/org.scala-ide.sdt.core/scala.compiler.additionalParams=-feature
+/instance/org.scala-ide.sdt.core/Ywarn-dead-code=true
+/instance/org.scala-ide.sdt.core/deprecation=true
