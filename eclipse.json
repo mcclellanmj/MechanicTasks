@@ -9,6 +9,8 @@
         "auto_insertions.epf",
         "formatter.epf",
         "key_bindings.kbd",
+        "color_theme.epf",
+        "scala_color_theme.epf",
         "templates.epf"
     ]
 }
