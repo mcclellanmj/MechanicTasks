@@ -1,14 +1,11 @@
 {
     "type": "com.google.eclipse.mechanic.UriTaskProviderModel",
     "metadata": {
-        "description": "My Standard Tasks",
+        "description": "My Standard Java Eclipse Settings",
         "name": "Matt McClellan",
         "contact": "mcclellan.mj@gmail.com"
     },
     "tasks": [
-        "auto_insertions.epf",
-        "formatter.epf",
-        "key_bindings.kbd",
-        "templates.epf"
+        "color_theme.epf"
     ]
 }
