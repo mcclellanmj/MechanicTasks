@@ -1,15 +1,14 @@
 {
-    "type": "com.google.eclipse.mechanic.UriTaskProviderModel",
-    "metadata": {
-        "description": "My Standard Tasks",
-        "name": "Matt McClellan",
-        "contact": "mcclellan.mj@gmail.com"
-    },
-    "tasks": [
-        "auto_insertions.epf",
-        "formatter.epf",
-        "key_bindings.kbd",
-        "color_theme.epf",
-        "templates.epf"
-    ]
+	"type": "com.google.eclipse.mechanic.UriTaskProviderModel",
+	"metadata": {
+		"description": "My Standard Tasks",
+		"name": "Matt McClellan",
+		"contact": "mcclellan.mj@gmail.com"
+	},
+	"tasks": [
+		"auto_insertions.epf",
+		"formatter.epf",
+		"color_theme.epf",
+		"templates.epf"
+	]
 }

@@ -1,13 +1,11 @@
 {
 	"type": "com.google.eclipse.mechanic.UriTaskProviderModel",
 	"metadata": {
-		"description": "My Standard Scala Tasks",
+		"description": "My Standard Windows Tasks",
 		"name": "Matt McClellan",
 		"contact": "mcclellan.mj@gmail.com"
 	},
 	"tasks": [
-		"scala_color_theme.epf",
-		"scala_compiler",
-		"scala_formatting.epf"
+		"windows_key_bindings.kbd"
 	]
 }
