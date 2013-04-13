@@ -7,7 +7,7 @@
 	},
 	"tasks": [
 		"scala_color_theme.epf",
-		"scala_compiler",
+		"scala_compiler.epf",
 		"scala_formatting.epf"
 	]
 }
