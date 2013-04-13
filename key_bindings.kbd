@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "description" : "Keyboard bindings for mamcclellan"
+  },
+  "changeSets" : [
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.contexts.window",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "Ctrl+Y, B", "cmd" : "org.eclipse.ui.edit.text.cut.line.to.beginning"},
+      {"keys" : "Ctrl+Y, Y", "cmd" : "org.eclipse.ui.edit.text.cut.line"},
+      {"keys" : "Alt+Shift+X, R, T", "cmd" : "org.eclipse.jdt.junit.junitShortcut.rerunLast"},
+      {"keys" : "Ctrl+Y, E", "cmd" : "org.eclipse.ui.edit.text.cut.line.to.end"},
+      {"keys" : "Ctrl+Alt+B", "cmd" : "org.eclipse.ui.edit.addBookmark"},
+      {"keys" : "Alt+Shift+X, R, F", "cmd" : "org.eclipse.jdt.junit.junitShortcut.rerunFailedFirst"},
+      ]
+    },
+  ]
+}
