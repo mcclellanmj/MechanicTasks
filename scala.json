@@ -5,5 +5,5 @@
 		"name": "Matt McClellan",
 		"contact": "mcclellan.mj@gmail.com"
 	},
-	"tasks": ["scala/.git","scala/eclipse","scala/eclipse.json","scala/make.py","scala/scala","scala/scala.json","scala/template.json","scala/windows","scala/windows.json"]
+	"tasks": ["scala/color_theme.epf","scala/color_theme_enhanced.epf","scala/compiler.epf","scala/formatting.epf"]
 }
