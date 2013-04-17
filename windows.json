@@ -1,9 +1,0 @@
-{
-	"type": "com.google.eclipse.mechanic.UriTaskProviderModel",
-	"metadata": {
-		"description": "windows",
-		"name": "Matt McClellan",
-		"contact": "mcclellan.mj@gmail.com"
-	},
-	"tasks": ["windows/key_bindings.kbd"]
-}

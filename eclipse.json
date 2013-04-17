@@ -1,9 +1,0 @@
-{
-	"type": "com.google.eclipse.mechanic.UriTaskProviderModel",
-	"metadata": {
-		"description": "eclipse",
-		"name": "Matt McClellan",
-		"contact": "mcclellan.mj@gmail.com"
-	},
-	"tasks": ["eclipse/auto_insertions.epf","eclipse/color_theme.epf","eclipse/formatter.epf","eclipse/templates.epf"]
-}
