@@ -1,0 +1,9 @@
+{
+	"type": "com.google.eclipse.mechanic.UriTaskProviderModel",
+	"metadata": {
+		"description": "${directory}",
+		"name": "Matt McClellan",
+		"contact": "mcclellan.mj@gmail.com"
+	},
+	"tasks": [$paths]
+}

@@ -1,0 +1,9 @@
+{
+	"type": "com.google.eclipse.mechanic.UriTaskProviderModel",
+	"metadata": {
+		"description": "windows",
+		"name": "Matt McClellan",
+		"contact": "mcclellan.mj@gmail.com"
+	},
+	"tasks": ["windows/.git","windows/eclipse","windows/eclipse.json","windows/make.py","windows/scala","windows/scala.json","windows/template.json","windows/windows","windows/windows.json"]
+}
