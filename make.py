@@ -24,3 +24,5 @@ for dir_part, dir_names, file_names in os.walk('.', topdown=True):
 			map(mapper, os.listdir(dir_name)))))
 
 		distutils.dir_util.copy_tree(dir_name, "target/" + dir_name)
+
+print "Finished execution with no errors"
