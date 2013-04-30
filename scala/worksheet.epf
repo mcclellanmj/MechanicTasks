@@ -1,0 +1,15 @@
+# @title Scala Worksheet
+# @description Coloring for worksheets
+# @task_type RECONCILE
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Tue Apr 30 08:56:45 CDT 2013
+/instance/org.scalaide.worksheet/syntaxColouring.evalResultMarker.colour=64,128,128
+/instance/org.scalaide.worksheet/syntaxColouring.evalResultNewLine.backgroundColourEnabled=false
+/instance/org.scalaide.worksheet/syntaxColouring.evalResultFirstLine.colour=0,128,0
+file_export_version=3.0
+/instance/org.scalaide.worksheet/syntaxColouring.evalResultDelimiter.colour=64,128,128
+/instance/org.scalaide.worksheet/syntaxColouring.evalResultMarker.backgroundColourEnabled=false
+/instance/org.scalaide.worksheet/syntaxColouring.evalResultNewLine.colour=0,128,0
+/instance/org.scalaide.worksheet/syntaxColouring.evalResultDelimiter.backgroundColourEnabled=false
+/instance/org.scalaide.worksheet/syntaxColouring.evalResultFirstLine.backgroundColourEnabled=false
