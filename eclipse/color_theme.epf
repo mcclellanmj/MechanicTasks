@@ -291,7 +291,6 @@
 /instance/ccw.core/ccw.preferences.editor_color.meta.italic=false
 /instance/org.eclipse.jdt.ui/java_default=248,225,170
 /instance/ccw.core/ccw.preferences.editor_color.callableSPECIAL_FORM.italic=false
-/instance/org.eclipse.ui.editors/searchResultIndicationColor=57,94,177
 /instance/ccw.core/ccw.preferences.editor_color.symbol.bold=false
 /instance/org.cfeclipse.cfml/currentLineColor=42,42,42
 /instance/org.jboss.ide.eclipse.freemarker/color.xmlComment=131,120,110
@@ -1096,3 +1095,4 @@ file_export_version=3.0
 /instance/com.powerflasher.fdt.ui/AS_KEYWORD_color_bold=true
 /instance/com.powerflasher.fdt.ui/CHARACTER_color=214,194,72
 /instance/org.eclipse.ui.editors/fullcoverage_color=0,40,0
+/instance/org.eclipse.ui.editors/searchResultIndicationColor=0,0,79
