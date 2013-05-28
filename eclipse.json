@@ -5,5 +5,5 @@
 		"name": "Matt McClellan",
 		"contact": "mcclellan.mj@gmail.com"
 	},
-	"tasks": ["eclipse/auto_insertions.epf","eclipse/color_theme.epf","eclipse/formatter.epf","eclipse/temp.epf","eclipse/templates.epf"]
+	"tasks": ["eclipse/auto_insertions.epf","eclipse/color_theme.epf","eclipse/formatter.epf","eclipse/templates.epf"]
 }
