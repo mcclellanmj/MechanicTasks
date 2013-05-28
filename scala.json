@@ -7,7 +7,3 @@
 	},
 	"tasks": ["scala/color_theme.epf","scala/compiler.epf","scala/formatting.epf","scala/worksheet.epf"]
 }
-
-org.scalatest.exceptions.TestFailedException:
-Set(List((b,2), (a,1)), List((b,2), (a,2)), List((a,1), (b,1)), List((b,1), (a,2)), List((a,2), (b,1)), List((b,1), (a,1)), List((a,1), (b,2)), List((a,2), (b,2)))
-Set(List((a,1)), List((b,1)), List((b,2)), List((a,1), (b,1)), List(), List((a,2), (b,1)), List((a,2)), List((a,1), (b,2)), List((a,2), (b,2)))
