@@ -1,4 +1,9 @@
 #!/bin/bash
+if [ -z "$(git status | grep nothing)" ]
+then
+	echo "Commit files first"
+	exit 1
+fi
 python make.py
 git checkout gh-pages
 cp -r target/* .
