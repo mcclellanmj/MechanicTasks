@@ -4,6 +4,15 @@
   },
   "changeSets" : [
     {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.codehaus.groovy.eclipse.editor.groovyEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "Alt+G, F", "cmd" : "org.codehaus.groovy.eclipse.ui.convertToClosure"},
+      {"keys" : "Alt+G, M", "cmd" : "org.codehaus.groovy.eclipse.ui.convertToMethod"},
+      ]
+    },
+    {
     "scheme" : "com.mulgasoft.emacsplusConfiguration",
     "context" : "org.eclipse.ui.textEditorScope",
     "action" : "add",
@@ -40,12 +49,12 @@
       {"keys" : "F8", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.continueWithoutEHCommand"},
       {"keys" : "Alt+3", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.SwitchToComponentNamesViewCommand"},
       {"keys" : "Ctrl+L", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.StopSuiteCommand"},
-      {"keys" : "Alt+J, G", "cmd" : "org.codehaus.groovy.eclipse.ui.convertToGroovy"},
       {"keys" : "Alt+2", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.SwitchToDataSetViewCommand"},
       {"keys" : "Ctrl+Shift+P", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ProjectProperties"},
       {"keys" : "Ctrl+J", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.StartTestSuiteCommand"},
       {"keys" : "Ctrl+Shift+X", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ExportProject"},
       {"keys" : "Alt+Shift+2", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.SwitchToTestCaseBrowserCommand"},
+      {"keys" : "Alt+G, J", "cmd" : "org.codehaus.groovy.eclipse.ui.convertToJava"},
       {"keys" : "Shift+F9", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ShowFromClipboard"},
       {"keys" : "F9", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand"},
       {"keys" : "Ctrl+7", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ToggleActiveStatus"},
