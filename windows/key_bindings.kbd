@@ -4,16 +4,97 @@
   },
   "changeSets" : [
     {
+    "scheme" : "com.mulgasoft.emacsplusConfiguration",
+    "context" : "org.eclipse.ui.textEditorScope",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "Alt+N", "cmd" : "com.mulgasoft.emacsplus.forwardsexp"},
+      {"keys" : "Alt+P", "cmd" : "com.mulgasoft.emacsplus.backwardsexp"},
+      ]
+    },
+    {
     "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.contexts.dialogAndWindow",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "Ctrl+1", "cmd" : "org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals"},
+      {"keys" : "Ctrl+Space", "cmd" : "org.eclipse.ui.edit.text.contentAssist.proposals"},
+      ]
+    },
+    {
+    "scheme" : "com.mulgasoft.emacsplusConfiguration",
+    "context" : "org.eclipse.ui.contexts.dialogAndWindow",
+    "action" : "add",
+    "bindings" : [
+      {"keys" : "Alt+/", "cmd" : "org.eclipse.ui.edit.text.contentAssist.proposals"},
+      {"keys" : "Alt+Shift+/", "cmd" : "org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.contexts.window",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "F7", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ShowWhereUsed"},
+      {"keys" : "Ctrl+T", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.StopAUTCommand"},
+      {"keys" : "F8", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.continueWithoutEHCommand"},
+      {"keys" : "Alt+3", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.SwitchToComponentNamesViewCommand"},
+      {"keys" : "Ctrl+L", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.StopSuiteCommand"},
+      {"keys" : "Alt+J, G", "cmd" : "org.codehaus.groovy.eclipse.ui.convertToGroovy"},
+      {"keys" : "Alt+2", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.SwitchToDataSetViewCommand"},
+      {"keys" : "Ctrl+Shift+P", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ProjectProperties"},
+      {"keys" : "Ctrl+J", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.StartTestSuiteCommand"},
+      {"keys" : "Ctrl+Shift+X", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ExportProject"},
+      {"keys" : "Alt+Shift+2", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.SwitchToTestCaseBrowserCommand"},
+      {"keys" : "Shift+F9", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ShowFromClipboard"},
+      {"keys" : "F9", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand"},
+      {"keys" : "Ctrl+7", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ToggleActiveStatus"},
+      {"keys" : "Insert", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.AddNewTestDataManager"},
+      {"keys" : "Shift+Enter", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.newCap"},
+      {"keys" : "Alt+Shift+1", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.SwitchToTestSuiteBrowserCommand"},
+      {"keys" : "Ctrl+Shift+C", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ConnectToAUTAgentCommand"},
+      {"keys" : "Ctrl+R", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ChooseAutCommand"},
+      {"keys" : "Alt+1", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.SwitchToPropertiesViewCommand"},
+      {"keys" : "Ctrl+Enter", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.AddEventHandler"},
+      {"keys" : "Ctrl+K", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.PauseTestSuiteCommand"},
+      {"keys" : "Ctrl+Shift+Y", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.CreateNewCategoryCommand"},
+      {"keys" : "Enter", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.newTestCaseReference"},
+      {"keys" : "Ctrl+D", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.DeleteProject"},
+      {"keys" : "Ctrl+O", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.OpenProject"},
+      ]
+    },
+    {
+    "scheme" : "com.mulgasoft.emacsplusConfiguration",
+    "context" : "org.eclipse.jdt.ui.javaEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "Alt+N", "cmd" : "com.mulgasoft.emacsplus.postappendcomment"},
+      {"keys" : "Alt+P", "cmd" : "com.mulgasoft.emacsplus.preappendcomment"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.datatools.sqltools.SQLEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "Alt+Q", "cmd" : "org.eclipse.datatools.sqltools.sqleditor.DMLDialogSelectionAction"},
+      ]
+    },
+    {
+    "scheme" : "com.mulgasoft.emacsplusConfiguration",
     "context" : "org.eclipse.ui.contexts.window",
     "action" : "add",
     "bindings" : [
-      {"keys" : "Alt+Y, E", "cmd" : "org.eclipse.ui.edit.text.cut.line.to.end"},
-      {"keys" : "Alt+Shift+X, R, F", "cmd" : "org.eclipse.jdt.junit.junitShortcut.rerunFailedFirst"},
-      {"keys" : "Alt+Shift+X, R, T", "cmd" : "org.eclipse.jdt.junit.junitShortcut.rerunLast"},
-      {"keys" : "Ctrl+Alt+B", "cmd" : "org.eclipse.ui.edit.addBookmark"},
-      {"keys" : "Alt+Y, B", "cmd" : "org.eclipse.ui.edit.text.cut.line.to.beginning"},
-      {"keys" : "Alt+Y, Y", "cmd" : "org.eclipse.ui.edit.text.cut.line"},
+      {"keys" : "Alt+Shift+N", "cmd" : "com.mulgasoft.emacsplus.forwardSelectSexp"},
+      {"keys" : "Alt+Shift+P", "cmd" : "com.mulgasoft.emacsplus.backwardSelectSexp"},
+      ]
+    },
+    {
+    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
+    "context" : "org.eclipse.ui.textEditorScope",
+    "action" : "remove",
+    "bindings" : [
+      {"keys" : "Alt+/", "cmd" : "org.eclipse.ui.edit.text.hippieCompletion"},
       ]
     },
   ]
