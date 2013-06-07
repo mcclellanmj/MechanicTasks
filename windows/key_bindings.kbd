@@ -4,15 +4,6 @@
   },
   "changeSets" : [
     {
-    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
-    "context" : "org.codehaus.groovy.eclipse.editor.groovyEditorScope",
-    "action" : "remove",
-    "bindings" : [
-      {"keys" : "Alt+G, F", "cmd" : "org.codehaus.groovy.eclipse.ui.convertToClosure"},
-      {"keys" : "Alt+G, M", "cmd" : "org.codehaus.groovy.eclipse.ui.convertToMethod"},
-      ]
-    },
-    {
     "scheme" : "com.mulgasoft.emacsplusConfiguration",
     "context" : "org.eclipse.ui.textEditorScope",
     "action" : "add",
