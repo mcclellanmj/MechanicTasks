@@ -14,16 +14,6 @@
     },
     {
     "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
-    "context" : "org.eclipse.jdt.ui.javaEditorScope",
-    "action" : "remove",
-    "bindings" : [
-      {"keys" : "Ctrl+2, L", "cmd" : "org.eclipse.jdt.ui.correction.assignToLocal.assist"},
-      {"keys" : "Ctrl+2, F", "cmd" : "org.eclipse.jdt.ui.correction.assignToField.assist"},
-      {"keys" : "Ctrl+2, R", "cmd" : "org.eclipse.jdt.ui.correction.renameInFile.assist"},
-      ]
-    },
-    {
-    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
     "context" : "org.eclipse.ui.contexts.dialogAndWindow",
     "action" : "remove",
     "bindings" : [
