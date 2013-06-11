@@ -38,7 +38,6 @@
       {"keys" : "F9", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.togglePauseOnErrorCommand"},
       {"keys" : "Ctrl+Shift+P", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ProjectProperties"},
       {"keys" : "Ctrl+N", "cmd" : "org.eclipse.ui.newWizard"},
-      {"keys" : "Alt+G, J", "cmd" : "org.codehaus.groovy.eclipse.ui.convertToJava"},
       {"keys" : "Ctrl+K", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.PauseTestSuiteCommand"},
       {"keys" : "Ctrl+3", "cmd" : "org.eclipse.ui.window.quickAccess"},
       {"keys" : "Ctrl+Enter", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.AddEventHandler"},
@@ -61,7 +60,6 @@
       {"keys" : "Ctrl+7", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ToggleActiveStatus"},
       {"keys" : "Insert", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.AddNewTestDataManager"},
       {"keys" : "Alt+Shift+1", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.SwitchToTestSuiteBrowserCommand"},
-      {"keys" : "Alt+J, G", "cmd" : "org.codehaus.groovy.eclipse.ui.convertToGroovy"},
       {"keys" : "Ctrl+Shift+C", "cmd" : "org.eclipse.jubula.client.ui.rcp.commands.ConnectToAUTAgentCommand"},
       {"keys" : "Ctrl+R", "cmd" : "com.springsource.sts.roo.ui.shell.show"},
       ]
