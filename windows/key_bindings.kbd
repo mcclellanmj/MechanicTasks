@@ -101,16 +101,6 @@
     },
     {
     "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
-    "context" : "org.eclipse.wst.jsdt.ui.javaEditorScope",
-    "action" : "remove",
-    "bindings" : [
-      {"keys" : "Ctrl+2, F", "cmd" : "org.eclipse.wst.jsdt.ui.correction.assignToField.assist"},
-      {"keys" : "Ctrl+2, L", "cmd" : "org.eclipse.wst.jsdt.ui.correction.assignToLocal.assist"},
-      {"keys" : "Ctrl+2, R", "cmd" : "org.eclipse.wst.jsdt.ui.correction.renameInFile.assist"},
-      ]
-    },
-    {
-    "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
     "context" : "org.eclipse.ui.textEditorScope",
     "action" : "remove",
     "bindings" : [
