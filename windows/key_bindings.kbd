@@ -4,15 +4,6 @@
   },
   "changeSets" : [
     {
-    "scheme" : "com.mulgasoft.emacsplusConfiguration",
-    "context" : "org.eclipse.ui.textEditorScope",
-    "action" : "add",
-    "bindings" : [
-      {"keys" : "Alt+P", "cmd" : "com.mulgasoft.emacsplus.backwardsexp"},
-      {"keys" : "Alt+N", "cmd" : "com.mulgasoft.emacsplus.forwardsexp"},
-      ]
-    },
-    {
     "scheme" : "org.eclipse.ui.defaultAcceleratorConfiguration",
     "context" : "org.eclipse.ui.contexts.dialogAndWindow",
     "action" : "remove",
