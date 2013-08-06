@@ -1,0 +1,10 @@
+# @title Groovy Theme
+# @description Theme for groovy
+# @task_type RECONCILE
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Tue Aug 06 12:36:41 CDT 2013
+/instance/org.codehaus.groovy.eclipse.ui/groovy.editor.highlight.operator.color=255,128,0
+file_export_version=3.0
+/instance/org.codehaus.groovy.eclipse.ui/groovy.editor.highlight.annotation.color=0,128,0
+/instance/org.codehaus.groovy.eclipse.ui/groovy.editor.highlight.bracket.color=192,192,192
